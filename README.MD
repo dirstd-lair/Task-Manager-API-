@@ -1,9 +1,11 @@
 # Backend Task Manager
 
-## Описание
-REST API для управления задачами
+REST API для управления задачами с JWT-аутентификацией. Можно запустить локально или через Docker.
 
 ## Как запускать?
+
+### Docker (рекомендуется)
 ```bash
-pip install -r requirements.txt
-uvicorn main:app --reload
+git clone https://github.com/твой-username/taskflow.git
+cd taskflow
+docker-compose up --build
